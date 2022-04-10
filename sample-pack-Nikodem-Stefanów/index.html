@@ -11,151 +11,35 @@
 
 </head>
 <body>
- 
-    <!-- Dropdown menu-->
-    <div class="navbar">
-        <div id="logo">Grass Studio</div>
-        <div class="dropdown">
-            <button class="dropbtn">About
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <div class="nav-row">
-                <div class="nav-column">
-                  <a href="#">Alaska</a>
-                  <a href="#">Arctica</a>
-                  <a href="#">Norway</a>
-                  <a href="#">Iceland</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        <a href="#">Trips</a>
-        <div class="dropdown">
-          <button class="dropbtn">Gallery
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <div class="nav-row">
-              <div class="nav-column">
-                <a href="#">Support</a>
-                <a href="#">Mission</a>
-                <a href="#">Idea</a>
-                <a href="#">Team</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="#">Blog</a>
-      </div>
-    <section class="hero">
+<!--- MENU AND HERO SECTION--->
+<div class="container">
+  <div class="image-wrap">
+    <img src="assets/seacost.jpg" alt="Hero image">
+  </div>
+   <div class="content-wrap">
+    <div class="nav-container">
+     <a class="logo" href="#">Grass Studio</a>
 
-        <div class="hero-content">
-        
-           <h1 class="hero-title">
-            Outdoor  Photography  is a Journey
-           </h1>
-             
-           <h2 class="hero-subtitle">
-            We spent three months exploring Iceland
-           </h2>
-             
-           <button type="button" class="hero-button">
-                Check it &raquo;
-           </button>
-        
-        </div>
+     <div class="navbar">
+       <ul>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Trips</a></li>
+       <li><a href="#">gallery</a></li>
+       <li><a href="#">Blog</a></li>
+       </ul>
+      </div>
     
-    </section>
-    <section>
-        <h1>Section title </h1>
-        <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
-        <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
-        
-    </section>
-     
+    </div>
+    <div class="hero-wrap">
+    <h1>Outdoor Photography is a Jurney</h1>
+    <h3>We spent three months exploring</h3>
 
-<!-- Images used to open the lightbox -->
-<div class="row">
-    <div class="column">
-      <img src="assets/beach-sea-coast-water-ocean-horizon-15529-pxhere.com.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="assets/grass-field-farm-lawn-meadow-hill-736197-pxhere.com.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="assets/hand-outdoor-sand-morning-animal-horse-114552-pxhere.com.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-    </div>
-    <div class="column">
-      <img src="assets/landscape-sea-coast-horizon-mountain-snow-1325243-pxhere.com.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-    <div class="column">
-        <img src="assets/fotolia_170367715.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="assets/snow-winter-city-vehicle-church-iceland-836962-pxhere.com.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="assets/landscape-sea-nature-ocean-mountain-sky-386319-pxhere.com.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="assets/sea-coast-water-ocean-bird-animal-136776-pxhere.com.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
-      </div>
-      <div class="column">
-        <img src="assets/landscape-nature-grass-horizon-wilderness-mountain-946977-pxhere.com.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
-      </div>
-  </div>
-  
-  <!-- The Modal/Lightbox -->
-  <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-  
-      <div class="mySlides">
-        <div class="numbertext">1 / 9</div>
-        <img src="assets/beach-sea-coast-water-ocean-horizon-15529-pxhere.com.jpg" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">2 / 9</div>
-        <img src="assets/grass-field-farm-lawn-meadow-hill-736197-pxhere.com.jpg" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">3 / 9</div>
-        <img src="assets/hand-outdoor-sand-morning-animal-horse-114552-pxhere.com.jpg" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">4 / 9</div>
-        <img src="assets/landscape-sea-coast-horizon-mountain-snow-1325243-pxhere.com.jpg" style="width:100%">
-      </div>
-      </div>
-      <div class="mySlides">
-        <div class="numbertext">5 / 9</div>
-        <img src="assets/fotolia_170367715.png" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">6 / 9</div>
-        <img src="assets/snow-winter-city-vehicle-church-iceland-836962-pxhere.com.jpg" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">7 / 9</div>
-        <img src="assets/landscape-sea-nature-ocean-mountain-sky-386319-pxhere.com.jpg" style="width:100%">
-      </div>
-  
-      <div class="mySlides">
-        <div class="numbertext">8 / 9</div>
-        <img src="assets/sea-coast-water-ocean-bird-animal-136776-pxhere.com.jpg" style="width:100%">
-      </div>
-      </div>
-      <div class="mySlides">
-        <div class="numbertext">9 / 9</div>
-        <img src="assets/landscape-nature-grass-horizon-wilderness-mountain-946977-pxhere.com.jpg" style="width:100%">
-      </div>
+    <a href="#"><button>Check it</button></a>
+   
     </div>
   </div>
+
+</div>
+
 </body>
 </html>
